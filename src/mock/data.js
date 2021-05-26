@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Arrow',
+  subtitle: 'I am web developer',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
@@ -33,7 +33,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,7 +51,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/', // if no repo, the button will not show up
   },
 ];
 
@@ -67,28 +67,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://github.com/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://github.com/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
